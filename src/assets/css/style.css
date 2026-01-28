@@ -485,9 +485,9 @@ body::-webkit-scrollbar-thumb {
 
 .skills-banner { display: none; }
 
-.skills { background-color: var(--black); }
 
-.skills .section-title { color: var(--white); }
+
+.skills .section-title { color: var(--black); }
 
 .skills .section-text {
   color: var(--gray-x-11);
@@ -1002,12 +1002,13 @@ textarea.input-field {
     position: absolute;
     top: 0;
     right: 50px;
-    width: 410px;
+    width: 375px;
     height: 110vh;
     background-image: url('../images/habSobreMim.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 105%;
+    border-radius: 15px;
+    background-position: 98%;
     background-attachment: fixed;
     overflow: hidden;
   }

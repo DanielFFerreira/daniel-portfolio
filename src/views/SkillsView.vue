@@ -4,7 +4,7 @@
       class="section skills has-before"
       id="skills"
       aria-label="skills"
-      :style="{ backgroundImage: `url(${skillsBg})` }"
+      
     >
       <div class="container">
         <div class="skills-content">
@@ -60,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import skillsBg from '../assets/images/skills-bg.png'
+
 
 import { computed, ref } from "vue";
 

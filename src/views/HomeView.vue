@@ -29,7 +29,7 @@
 
           <ul class="exp-list">
             <li class="list-item">
-              <strong class="strong">5+</strong>
+              <strong class="strong">6+</strong>
               <span class="span">Anos de<br />experiência</span>
             </li>
             <!-- <li class="list-item">

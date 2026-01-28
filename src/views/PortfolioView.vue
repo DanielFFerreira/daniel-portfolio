@@ -12,7 +12,7 @@
                 <img :src="item.image" width="600" height="675" loading="lazy" :alt="item.title" class="img-cover" />
               </figure>
               
-              <a :href="item.url" class="card-content" @click.prevent>
+              <a :href="item.url" class="card-content" target="_blank">
                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 <h3 class="h3 card-title">{{ item.title }}</h3>
                 <p class="card-text">{{ item.source }}</p>

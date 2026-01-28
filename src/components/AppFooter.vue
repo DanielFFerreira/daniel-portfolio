@@ -7,30 +7,21 @@
 
       <ul class="social-list">
         <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
+          <a href="https://github.com/DanielFFerreira" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
         <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-twitter"></ion-icon>
+          <a href="danielfferreirabr@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
           </a>
         </li>
         <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
+          <a href="https://www.linkedin.com/in/daniel-freitas-ferreira/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
           </a>
         </li>
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-dribbble"></ion-icon>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-tiktok"></ion-icon>
-          </a>
-        </li>
+        
       </ul>
     </div>
   </footer>

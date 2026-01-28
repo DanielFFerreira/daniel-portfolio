@@ -125,7 +125,7 @@ const opened = computed(() => categories.value.filter(c => c.open));
   border: 1px solid var(--border);
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 20px hsla(0, 0%, 0%, .15);
 }
 
 /* Header do grupo */

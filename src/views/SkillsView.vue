@@ -85,8 +85,8 @@ const categories = ref<Category[]>([
     items: [
       { name: "VueJS", icon: new URL("../assets/images/logo-skills/vuejs-original.svg", import.meta.url).href, featured: false },
       { name: "Quasar", icon: new URL("../assets/images/logo-skills/quasar.png", import.meta.url).href, featured: false },
-      { name: "Pinia", icon: new URL("../assets/images/logo-skills/pinia.png", import.meta.url).href, featured: false },
-      { name: "DaisyUI", icon: new URL("../assets/images/logo-skills/daisyUI.png", import.meta.url).href, featured: false },
+      // { name: "Pinia", icon: new URL("../assets/images/logo-skills/pinia.png", import.meta.url).href, featured: false },
+      // { name: "DaisyUI", icon: new URL("../assets/images/logo-skills/daisyUI.png", import.meta.url).href, featured: false },
       { name: "Tailwind", icon: new URL("../assets/images/logo-skills/tailwind.png", import.meta.url).href, featured: true },
       
       { name: "HTML5", icon: new URL("../assets/images/logo-skills/html5-original.svg", import.meta.url).href, featured: true },

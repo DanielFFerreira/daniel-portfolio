@@ -27,11 +27,11 @@
 
 <script setup lang="ts">
 import p1 from '../assets/images/projetos/projeto1.png'
-/*import p2 from '../assets/images/portfolio-2.jpg'
-import p3 from '../assets/images/portfolio-3.jpg'
-import p4 from '../assets/images/portfolio-4.jpg'
-import p5 from '../assets/images/portfolio-5.jpg'
-import p6 from '../assets/images/portfolio-6.jpg'*/
+import p2 from '../assets/images/projetos/starbucks.jpg'
+import p3 from '../assets/images/projetos/gatito.jpg'
+import p4 from '../assets/images/projetos/agency.jpg'
+import p5 from '../assets/images/projetos/electrum.jpg'
+import p6 from '../assets/images/projetos/7DyasOfCodeAlura.jpg'
 
 type Item = { title: string; source: string; image: string, url: string }
 
@@ -41,6 +41,36 @@ const items: Item[] = [
     source: '',
     image: p1,
     url: 'https://alura-geek-theta.vercel.app/'
+  },
+  {
+    title: 'Starbucks',
+    source: '',
+    image: p2,
+    url: 'https://starbucks-chi.vercel.app/'
+  },
+  {
+    title: 'Gatito',
+    source: '',
+    image: p3,
+    url: 'https://projeto-sass-alura.vercel.app/'
+  },
+  {
+    title: 'Agency',
+    source: '',
+    image: p4,
+    url: 'https://agency-ecru.vercel.app/'
+  },
+  {
+    title: 'Electrum',
+    source: '',
+    image: p5,
+    url: 'https://electrum.vercel.app/'
+  },
+  {
+    title: 'Alura 7 days code',
+    source: '',
+    image: p6,
+    url: 'https://alura-7dayscode.vercel.app/'
   }
 ]
 </script>

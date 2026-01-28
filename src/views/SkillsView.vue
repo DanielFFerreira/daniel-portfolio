@@ -11,19 +11,19 @@
           <p class="section-subtitle">Minhas</p>
           <h2 class="h2 section-title">Habilidades</h2>
           <p class="section-text">
-            Graduado em Análise e Desenvolvimento de Sistemas (Universidade Unicesumar), e graduando em Segurança da informação (Universidade de Marilía Unimar).
-            Tenho pós-graduação em Desenvolvimento Web (Faculdade Imes) e pós-graduação em Desenvolvimento Front-end (Universidade Anhaguera).  
-            Profissional com mais de 4 anos de experiência em desenvolvimento de software, atuando como Full Stack Developer no centro universitário Unifafibe e como Front-end Freelancer na WA Esquadrilhas Ji-Paraná Rondonia.  
+            Graduado em Análise e Desenvolvimento de Sistemas (Universidade Unicesumar - Maringá), e graduando em Segurança da informação (Universidade de Marilía Unimar).<br>
+            Tenho pós-graduação em Desenvolvimento Web (Faculdade Imes), pós-graduação em Desenvolvimento Front-end (Universidade Anhaguera) e pós-graduação em marketing digital (Faculdade Metropolitana - Ribeirão Preto).<br>  
+            Profissional com mais de 5 anos de experiência em desenvolvimento de software, atuando como Full Stack Developer no centro universitário Unifafibe e como Front-end Freelancer na WA Esquadrilhas Ji-Paraná Rondonia.<br>  
 
-            Principais competências técnicas:
-            - Front-end: HTML5, CSS3/SASS, JavaScript, React, Vue.js (versões 2 e 3), Quasar, DaisyUI, TailwindCSS, Vuex, Pinia, Bootstrap, Bulma.  
-            - Back-end: PHP, integração com bancos de dados MySQL e Oracle.  
-            - Experiência em projetos completos, desde a concepção da interface até a implementação de soluções robustas no back-end.  
+            Principais competências técnicas:<br>
+            - Front-end: HTML5, CSS3/SASS, JavaScript, React, Vue.js (versões 2 e 3), Quasar, DaisyUI, TailwindCSS, Vuex, Pinia, Bootstrap, Bulma.<br> 
+            - Back-end: PHP, integração com bancos de dados MySQL e Oracle.<br> 
+            - Experiência em projetos completos, desde a concepção da interface até a implementação de soluções robustas no back-end.<br>  
 
-            Diferenciais:  
-            - Capacidade de atuar em diferentes etapas do ciclo de desenvolvimento.  
-            - Experiência tanto em ambiente corporativo quanto em projetos independentes.  
-            - Foco em qualidade de código, performance e boas práticas de desenvolvimento.  
+            Diferenciais:<br>  
+            - Capacidade de atuar em diferentes etapas do ciclo de desenvolvimento.<br>  
+            - Experiência tanto em ambiente corporativo quanto em projetos independentes.<br>  
+            - Foco em qualidade de código, performance e boas práticas de desenvolvimento.<br>  
           </p>
 
           
@@ -83,10 +83,10 @@ const categories = ref<Category[]>([
     icon: "ri-computer-line",
     open: true,
     items: [
-      { name: "VueJS", icon: new URL("../assets/images/logo-skills/vuejs-original.svg", import.meta.url).href, featured: true },
-      { name: "Quasar", icon: new URL("../assets/images/logo-skills/quasar.png", import.meta.url).href, featured: true },
-      { name: "Pinia", icon: new URL("../assets/images/logo-skills/pinia.png", import.meta.url).href, featured: true },
-      { name: "DaisyUI", icon: new URL("../assets/images/logo-skills/daisyUI.png", import.meta.url).href, featured: true },
+      { name: "VueJS", icon: new URL("../assets/images/logo-skills/vuejs-original.svg", import.meta.url).href, featured: false },
+      { name: "Quasar", icon: new URL("../assets/images/logo-skills/quasar.png", import.meta.url).href, featured: false },
+      { name: "Pinia", icon: new URL("../assets/images/logo-skills/pinia.png", import.meta.url).href, featured: false },
+      { name: "DaisyUI", icon: new URL("../assets/images/logo-skills/daisyUI.png", import.meta.url).href, featured: false },
       { name: "Tailwind", icon: new URL("../assets/images/logo-skills/tailwind.png", import.meta.url).href, featured: true },
       
       { name: "HTML5", icon: new URL("../assets/images/logo-skills/html5-original.svg", import.meta.url).href, featured: true },
@@ -96,10 +96,12 @@ const categories = ref<Category[]>([
       { name: "ReactJS", icon: new URL("../assets/images/logo-skills/react-original.svg", import.meta.url).href },
       
       { name: "Bootstrap", icon: new URL("../assets/images/logo-skills/bootstrap.png", import.meta.url).href, featured: true },
-      { name: "jQuery", icon: new URL("../assets/images/logo-skills/jquery.svg", import.meta.url).href },
-      { name: "Gulp", icon: new URL("../assets/images/logo-skills/gulp-js-icon.webp", import.meta.url).href },
-      { name: "Webpack", icon: new URL("../assets/images/logo-skills/webpack-icon.webp", import.meta.url).href },
-      { name: "PHP", icon: new URL("../assets/images/logo-skills/phpIcon.png", import.meta.url).href },
+      { name: "jQuery", icon: new URL("../assets/images/logo-skills/jquery.svg", import.meta.url).href, featured: true },
+      { name: "Gulp", icon: new URL("../assets/images/logo-skills/gulp-js-icon.webp", import.meta.url).href, featured: true },
+      { name: "Webpack", icon: new URL("../assets/images/logo-skills/webpack-icon.webp", import.meta.url).href, featured: true },
+      { name: "PHP", icon: new URL("../assets/images/logo-skills/phpIcon.png", import.meta.url).href, featured: true },
+      { name: "Mysql", icon: new URL("../assets/images/logo-skills/mysql.webp", import.meta.url).href, featured: true },
+      { name: "Oracle", icon: new URL("../assets/images/logo-skills/oracle.png", import.meta.url).href, featured: true },
     ],
   },
 ]);

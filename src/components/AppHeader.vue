@@ -11,7 +11,7 @@
           <li><RouterLink to="/timeline" class="navbar-link" @click="closeNav">Experiências</RouterLink></li>
           <!-- <li><RouterLink to="/pricing" class="navbar-link" @click="closeNav">Price</RouterLink></li> -->
           <!-- <li><RouterLink to="/news" class="navbar-link" @click="closeNav">News</RouterLink></li> -->
-          <li><RouterLink to="/curriculo" class="navbar-link" @click="closeNav">Curriculo</RouterLink></li>
+          <!-- <li><RouterLink to="/curriculo" class="navbar-link" @click="closeNav">Curriculo</RouterLink></li> -->
         </ul>
       </nav>
 

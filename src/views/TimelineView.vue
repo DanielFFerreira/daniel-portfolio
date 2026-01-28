@@ -10,6 +10,10 @@
             <h3 class="item-period">{{ t.period }}</h3>
             <p class="item-title">{{ t.title }}</p>
             <p class="item-address">{{ t.address }}</p>
+            <div>
+              <p style="font-weight: 700;">Tecnologias da empresa</p>
+              <p class="item-address">{{ t.technologies }}</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -18,18 +22,25 @@
 </template>
 
 <script setup lang="ts">
-type TimelineItem = { period: string; title: string; address: string }
+type TimelineItem = { 
+  period: string; 
+  title: string; 
+  address: string;
+  technologies: string; 
+}
 
 const timeline: TimelineItem[] = [
   { 
     period: 'Setembro de 2021 - Atualmente', 
     title: 'Desenvolvedor web', 
-    address: 'Centro Universitário Unifafibe' 
+    address: 'Centro Universitário Unifafibe',
+    technologies: 'HTML5, CSS3, SASS, Javascript, Jquery, PHP, Mysql, Doctrine, Node JS e Oracle'
   },
   { 
     period: 'Fevereiro de 2021 - Outubro de 2021', 
     title: 'Desenvolvedor web freelancer', 
-    address: 'WA Esquadrias' 
+    address: 'WA Esquadrias',
+    technologies: 'Vue JS, Vuex e Framework Quasar' 
   }
 ]
 </script>

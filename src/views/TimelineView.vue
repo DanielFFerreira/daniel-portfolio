@@ -34,7 +34,7 @@ const timeline: TimelineItem[] = [
     period: 'Setembro de 2021 - Atualmente', 
     title: 'Desenvolvedor web', 
     address: 'Centro Universitário Unifafibe',
-    technologies: 'HTML5, CSS3, SASS, Javascript, Jquery, PHP, Mysql, Doctrine, Node JS e Oracle'
+    technologies: 'HTML5, CSS3, SASS, Javascript, Jquery, Gulp, Webpack, Bootstrap 4 e 5, PHP 5 e 7, Mysql, Doctrine, Node JS e Oracle'
   },
   { 
     period: 'Fevereiro de 2021 - Outubro de 2021', 

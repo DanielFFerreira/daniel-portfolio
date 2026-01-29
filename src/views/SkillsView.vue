@@ -16,7 +16,7 @@
             Profissional com mais de 6 anos de experiência em desenvolvimento de software, atuando como Full Stack Developer no centro universitário Unifafibe e como Front-end Freelancer na WA Esquadrilhas Ji-Paraná Rondonia.<br>  
 
             Principais competências técnicas:<br>
-            - Front-end: HTML5, CSS3/SASS, JavaScript, React, Vue.js (versões 2 e 3), Quasar, DaisyUI, TailwindCSS, Vuex, Pinia, Bootstrap, Bulma.<br> 
+            - Front-end: HTML5, CSS3/SASS, JavaScript, React, Vue.js, Quasar, DaisyUI, TailwindCSS, Bootstrap, Bulma.<br> 
             - Back-end: PHP, integração com bancos de dados MySQL e Oracle.<br> 
             - Experiência em projetos completos, desde a concepção da interface até a implementação de soluções robustas no back-end.<br>  
 

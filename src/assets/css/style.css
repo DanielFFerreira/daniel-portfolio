@@ -490,7 +490,7 @@ body::-webkit-scrollbar-thumb {
 .skills .section-title { color: var(--black); }
 
 .skills .section-text {
-  color: var(--gray-x-11);
+  color: var(--black);
   margin-block: 40px 45px;
 }
 

@@ -136,7 +136,7 @@ const projects: Project[] = [
     tags: ["HTML5", "CSS3", "JAVASCRIPT"],
   },
   {
-    title: "Página Pepsi",
+    title: "Pepsi",
     source: "",
     image: p7,
     url: "https://pagepepsi.vercel.app/",

@@ -78,6 +78,7 @@ import p3 from "../assets/images/projetos/gatito.jpg";
 import p4 from "../assets/images/projetos/agency.jpg";
 import p5 from "../assets/images/projetos/electrum.jpg";
 import p6 from "../assets/images/projetos/7DyasOfCodeAlura.jpg";
+import p7 from "../assets/images/projetos/page-pepsi.jpg";
 
 type Project = {
   title: string;
@@ -134,6 +135,13 @@ const projects: Project[] = [
     url: "https://alura-7dayscode.vercel.app",
     tags: ["HTML5", "CSS3", "JAVASCRIPT"],
   },
+  {
+    title: "Página Pepsi",
+    source: "",
+    image: p7,
+    url: "https://pagepepsi.vercel.app/",
+    tags: ["HTML5", "CSS3", "JAVASCRIPT"],
+  }
 ];
 
 const q = ref("");
